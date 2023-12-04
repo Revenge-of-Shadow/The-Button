@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/mainLayout">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:foregroundGravity="center">
+
+
+        <ImageView
+            android:id="@+id/flexinView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:layout_anchorGravity="center"
+></ImageView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="@dimen/material_emphasis_medium"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/buttonTudududu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedTudududu"
+                    android:text="Тудудуду-дудудудудуду"
+                    android:textSize="12pt"/>
+
+
+                <Button
+                    android:id="@+id/buttonVera"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedVera"
+                    android:text="Вера"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonVerochka"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedVerochka"
+                    android:text="Верочка"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonVerunchik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedVerunchik"
+                    android:text="Верунчик"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonVerraaaaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedVerraaaaa"
+                    android:text="ВЕРРАААААА"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonILostOnPurpose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedILostOnPurpose"
+                    android:text="Я ему поддался."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonAh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedAh"
+                    android:text="*Стон Якимчука*"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonMalo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedMalo"
+                    android:text="22 секунди? Чо так мало?"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonFuckYourCopper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedFuckYourCopper"
+                    android:text="500+ сообщений"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonIgorWhatHaveYouForgotten"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedIgorWhatHaveYouForgotten"
+                    android:text="Игорь, шо ти там забув?"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonKorotko"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedKorotko"
+                    android:text="Коротко и ясно."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonNoCommentary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedNoCommentary"
+                    android:text="Есть смысл комментировать?"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonPidBahmut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedPidBahmut"
+                    android:text="Пiд Бахмут."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonSmokingIgor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedSmokingIgor"
+                    android:text="Пиздец ты курильщик, Игорь."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonStopIt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedStopIt"
+                    android:text="ХВАТИТ НАХУЙ ПОЖАЛУСТА"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonWillBeSoon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedWillBeSoon"
+                    android:text="Скоро будет."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonEiffel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedEiffel"
+                    android:text="Я сьоднi Ейфель."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonRespect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedRespect"
+                    android:text="Взаємоповага"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonParody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedParody"
+                    android:text="Пародiя"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonDodomu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedDodomu"
+                    android:text="Ану бiгом додому"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonDrunk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedDrunk"
+                    android:text="Соня не п'яна."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonNaDerevi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedNaDerevi"
+                    android:text="Да, на деревi."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonZYakimchukom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedZYakimchukom"
+                    android:text="З Якимчуком."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonLove"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedLove"
+                    android:text="Передай Ярику, что я его тоже люблю."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonLove2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedLove2"
+                    android:text="Якимчук, рiдненький мiй."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonAfterDeath"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedAfterDeath"
+                    android:text="Вже пiсля смертi."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonChicken"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedChicken"
+                    android:text="Куриные крылышки "
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonDa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedDa"
+                    android:text="Да."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonRealno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedRealno"
+                    android:text="Залежить вiд того, як день провести."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonDobrePogulaty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedDobrePogulaty"
+                    android:text="Бо можна так добре погуляти, що й до завтра не дожити."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonGoodVariant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedGoodVariant"
+                    android:text="О, мне нравится такой вариант."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonHappyMusic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedHappyMusic"
+                    android:text="А на фоне такая весёлая музыка."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonHujnia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedHujnia"
+                    android:text="Шо за хуйня?"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonLastManStanding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedLastManStanding"
+                    android:text="Останнiй на полi бою!"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonNonono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedNonono"
+                    android:text="Ненененене"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonNoSleep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedNoSleep"
+                    android:text="С вами хрен ляжешь спать."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonNuDa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedNuDa"
+                    android:text="Ну да."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonOkay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedOkay"
+                    android:text="Ну ладно."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonOkay2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedOkay2"
+                    android:text="Ну ладно."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonOkay3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedOkay3"
+                    android:text="Ну ладно."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonPoluchaetsa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedPoluchaetsa"
+                    android:text="Получается, да."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonTakeMe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedTakeMe"
+                    android:text="Заберiть мене с собою!"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonTrymayemTrend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedTrymayemTrend"
+                    android:text="Пiдтримуєм тренд."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonWhatDidIMiss"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedWhatDidIMiss"
+                    android:text="Шо я блядь пропустила?"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonYakimchukMolodec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedYakimchukMolodec"
+                    android:text="Якимчук - ЗОЖник!"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonEnough"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedEnough"
+                    android:text="Пожили хорошо - и хватит."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonGoodLuck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedGoodLuck"
+                    android:text="Удачi вам там... вижити."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonHandbook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedHandbook"
+                    android:text="Справочник к этому справочнику"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonHehehehe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedHehehehe"
+                    android:text="Хехехехе."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonMaybe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedMaybe"
+                    android:text="Можливо - ну, це тiльки можливо..."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonZironka"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedZironka"
+                    android:text="Зiронька в пiдвалi."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonTeasing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedTeasing"
+                    android:text="На вашому б мiсцi..."
+                    android:textSize="12pt" />
+
+                <View
+                    android:id="@+id/dividerChay"
+                    android:layout_width="match_parent"
+                    android:layout_height="10pt"
+                    android:background="?android:attr/listDivider" />
+
+                <Button
+                    android:id="@+id/buttonBozhestvennyj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedBozhestvennyj"
+                    android:text="Божественный вкус."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonVelikolepen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedVelikolepen"
+                    android:text="Ваш чай просто великолепен."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonKokain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedKokain"
+                    android:text="Мама, я ебашу кокаин."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonBliat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedBliat"
+                    android:text="Блядь."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonSportyly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedSportyly"
+                    android:text="Спортили всю iдилiю вечора."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonGeroin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedGeroin"
+                    android:text="Он героин вообще ебашит, нахуй!"
+                    android:textSize="12pt" />
+
+                <View
+                    android:id="@+id/dividerPraga"
+                    android:layout_width="match_parent"
+                    android:layout_height="10pt"
+                    android:background="?android:attr/listDivider" />
+
+                <Button
+                    android:id="@+id/buttonPlany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedPlany"
+                    android:text="Планы меняются."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonMda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedMda"
+                    android:text="Мда."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonPraga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedPraga"
+                    android:text="Встречаемся в Праге."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonKrym"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedKrym"
+                    android:text="Бой в Крыму; всё в дыму."
+                    android:textSize="12pt" />
+
+                <View
+                    android:id="@+id/dividerDozornyj"
+                    android:layout_width="match_parent"
+                    android:layout_height="10pt"
+                    android:background="?android:attr/listDivider" />
+
+                <Button
+                    android:id="@+id/buttonDozornyj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedDozornyj"
+                    android:text="Что побстановке, дозорный?"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonSlazey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedSlazey"
+                    android:text="Слазей."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonNaMenia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedNaMenia"
+                    android:text="Главное - чтоб он ещё на меня не спрыгнул."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonOdessa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedOdessa"
+                    android:text="В Одессе."
+                    android:textSize="12pt" />
+
+                <View
+                    android:id="@+id/dividerOutOfContext"
+                    android:layout_width="match_parent"
+                    android:layout_height="10pt"
+                    android:background="?android:attr/listDivider" />
+
+                <Button
+                    android:id="@+id/buttonPelmeshki"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedPelmeshki"
+                    android:text="У меня тоже пельмешки есть."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonLiesPelmeni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedLiesPelmeni"
+                    android:text="Неправда, це всё клевета (пельмени)"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonLies"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedLies"
+                    android:text="Шо за клевета?"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonItIsIgor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedItIsIgor"
+                    android:text="Это, если что, Игорь поёт."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonHata"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedHata"
+                    android:text="...в хату не пускатиме."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonMaksimka"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedMaksimka"
+                    android:text="О, Максимка!"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonSocks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedSocks"
+                    android:text="Игорь, кстати, где мои носки? Ты их съел?"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonNmt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedNmt"
+                    android:text="Готуємось до НМТ разом з підготовчим курсом Вонсевича Ярослава."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonSoniaNakazana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedSoniaNakazana"
+                    android:text="Только за, чтоб Соня была наказана."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonSonkozavr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedSonkozavr"
+                    android:text="Сонькозавр~"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonBubochka"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedBubochka"
+                    android:text="Ти ж моя Бубочка."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonVsimSmertnym"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedVsimSmertnym"
+                    android:text="Всiм смертним привiт i гарного дня."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonMuhuin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedMuhuin"
+                    android:text="Мухуин"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonAliona"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedAliona"
+                    android:text="Була би тут Альона..."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonIgorMolchit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedIgorMolchit"
+                    android:text="Игорь до сих пор молчит."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonFindYakimchuk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedFindYakimchuk"
+                    android:text="Найдите мне Якимчука."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonPresentation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedPresentation"
+                    android:text="Презентацiя"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonNaMatematyci"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedNaMatematyci"
+                    android:text="Я сижу, значит, на додатковiй математицi..."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonSms500"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedSms500"
+                    android:text="500 з хреном смс!"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonChords"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedChords"
+                    android:text="Трунь"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonAh12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedAh12"
+                    android:text="Ах 12х"
+                    android:textSize="12pt" />
+
+                <View
+                    android:id="@+id/dividerSilpo"
+                    android:layout_width="match_parent"
+                    android:layout_height="10pt"
+                    android:background="?android:attr/listDivider" />
+
+                <Button
+                    android:id="@+id/buttonChernyi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedChernyi"
+                    android:text="Чёрный"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonGeography"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedGeography"
+                    android:text="Ярик не сдал географию."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonMolodecYarik"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedMolodecYarik"
+                    android:text="Молодец, Ярик."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonLandon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedLandon"
+                    android:text="Ландонь"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonLookingForFish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedLookingForFish"
+                    android:text="В ПРЯМОМ ЭФИРЕ ИЩЕМ РЫБУ"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonFishFound"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedFishFound"
+                    android:text="Рыба присутствует."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonPipesAwait"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedPipesAwait"
+                    android:text="Трубы тебя уже ждут."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonTrap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedTrap"
+                    android:text="Слав, не выходи. Это ловушка."
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonPipes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedPipes"
+                    android:text="ТРУБЫ!"
+                    android:textSize="12pt" />
+
+                <Button
+                    android:id="@+id/buttonKrasivo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:onClick="onClickedKrasivo"
+                    android:text="А я ожидал, что ты заорёшь 'Красииво!'."
+                    android:textSize="12pt" />
+
+                <View
+                    android:id="@+id/dividerEND"
+                    android:layout_width="match_parent"
+                    android:layout_height="10pt"
+                    android:background="?android:attr/listDivider" />
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:onClick="onClicked"
+                    android:text=""
+                    android:textSize="12pt" />
+            </LinearLayout>
+        </ScrollView>
+
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:backgroundTint="#00000000">
+
+            <Button
+                android:id="@+id/buttonStop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alpha="@dimen/material_emphasis_high_type"
+                android:gravity="center"
+                android:onClick="onClickedStop"
+                android:text="Зупинити вiдтворення."
+
+                android:textSize="7pt" />
+        </com.google.android.material.bottomappbar.BottomAppBar>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>
